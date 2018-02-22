@@ -50,10 +50,10 @@ body {
 }
 .display-7 {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.28rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -655,13 +655,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.28rem;
 }
 .form-control,
 .form-control:focus {
@@ -2593,9 +2593,12 @@ body {
 .cid-qKdfEoeFiR .mbr-text {
   text-align: left;
 }
+.cid-qKdfEoeFiR .mbr-text P {
+  color: #000000;
+}
 .cid-qKdftqRvnZ {
   padding-top: 135px;
-  padding-bottom: 135px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-qKdftqRvnZ .mbr-slider .carousel-control {
@@ -2629,7 +2632,7 @@ body {
   background: transparent !important;
 }
 .cid-qKdftqRvnZ .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0 !important;
 }
 .cid-qKdftqRvnZ .mbr-gallery-title {
   font-size: .9em;
@@ -2651,13 +2654,13 @@ body {
   position: absolute;
   background: #554346 !important;
   background: linear-gradient(to left, #554346, #45505b) !important;
-  opacity: 0.7;
+  opacity: 0;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
 .cid-qKdeSIJ9Zl {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 30px;
   background: linear-gradient(45deg, #ffffff, #ffffff);
 }
 @media (min-width: 992px) {
